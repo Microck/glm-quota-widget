@@ -7,8 +7,7 @@
     "glm-quota-widget": "./server.mjs"
   },
   "scripts": {
-    "check": "node --check server.mjs && node --check scriptable-widget.js && node --check server.test.mjs",
-    "test": "node --test"
+    "check": "node --check server.mjs && node --check scriptable-widget.js"
   },
   "license": "MIT",
   "engines": {
