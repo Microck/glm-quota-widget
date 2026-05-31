@@ -1,0 +1,17 @@
+{
+  "name": "glm-quota-widget",
+  "version": "0.1.0",
+  "description": "Tiny bridge and Scriptable widget for Z.ai GLM coding plan quotas.",
+  "type": "module",
+  "bin": {
+    "glm-quota-widget": "./server.mjs"
+  },
+  "scripts": {
+    "check": "node --check server.mjs && node --check scriptable-widget.js && node --check server.test.mjs",
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
