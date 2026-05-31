@@ -6,6 +6,8 @@
 
 show your GLM 5-hour token window, weekly token window, and MCP usage from a home-screen widget without exposing your Z.ai API key to the phone.
 
+![glm quota widget preview](assets/widget-preview.png)
+
 ---
 
 ## quick start
